@@ -11,9 +11,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Rutas
+app.get("/", (req, res) => {
+  res.send("¡¡Bienvenido a la API del mundial 2022!!");
+});
+
 app.get("/api", (req, res) => {
   res.json({
-    message: "Bienvenido a la api del mundial",
+    rutas: {
+      nationalteams: "/api/nationalteams",
+      /* jugadores: "/api/jugadores",
+      partidos: "/api/partidos", */
+    },
   });
 });
 
