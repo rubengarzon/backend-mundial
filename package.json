@@ -2,12 +2,12 @@
   "name": "backend-mundial",
   "version": "1.0.0",
   "description": "backend app mundial",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon app.js",
-    "devbabel": "nodemon app.js --exec babel-node"
+    "start": "node api/index.js",
+    "dev": "nodemon index.js",
+    "devbabel": "nodemon index.js --exec babel-node"
   },
   "author": "Rubén Garzón",
   "license": "ISC",
