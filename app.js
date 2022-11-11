@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Rutas
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.json({
     message: "Bienvenido a la api del mundial",
   });
