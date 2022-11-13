@@ -1,65 +1,26 @@
-import express from "express";
-import morgan from "morgan";
-import cors from "cors";
+// Utilizar funcionalidades del Ecmascript 6
+"use strict";
+
+// Cargar modulos de node para crear servidor
+const express = require("express");
+const index = require("./src/routes/index.routes");
+const api = require("./src/routes/api.routes");
+const teams = require("./src/routes/teams.routes");
 
 const app = express();
 
-// Middleware
-app.use(morgan("tiny"));
-app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Rutas
-app.get("/", (req, res) => {
-  res.send("¡¡Bienvenido a la API del mundial 2022!!");
-});
-
-app.get("/api", (req, res) => {
-  res.json({
-    rutas: {
-      nationalteams: "/api/nationalteams",
-      /* jugadores: "/api/jugadores",
-      partidos: "/api/partidos", */
-    },
-  });
-});
-
-app.get("/api/nationalteams", (req, res) => {
-  res.json({
-    nationalteams: [
-      {
-        id: 1,
-        nombre: "Catar",
-        grupo: "A",
-        bandera: "https://cdn-icons-png.flaticon.com/512/197/197618.png",
-      },
-      {
-        id: 2,
-        nombre: "Ecuador",
-        grupo: "A",
-        bandera:
-          "https://static.vecteezy.com/system/resources/previews/011/571/449/original/circle-flag-of-ecuador-free-png.png",
-      },
-      {
-        id: 3,
-        nombre: "Senegal",
-        grupo: "A",
-        bandera:
-          "https://cdn.countryflags.com/thumbs/senegal/flag-round-250.png",
-      },
-      {
-        id: 4,
-        nombre: "Paises Bajos",
-        grupo: "A",
-        bandera:
-          "https://static.vecteezy.com/system/resources/previews/011/571/464/non_2x/circle-flag-of-netherlands-free-png.png",
-      },
-    ],
-  });
-});
+// RUTAS
+app.use("/", index);
+app.use("/api", api);
+app.use("/api/teams", teams);
 
 app.set("puerto", process.env.PORT || 3000);
 app.listen(app.get("puerto"), () => {
   console.log("Example app listening on port" + app.get("puerto"));
 });
+
+// exportamos este módulo para poder usar la variable app fuera de este archivo
+module.exports = app;
