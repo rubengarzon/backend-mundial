@@ -9,7 +9,11 @@ controller.api = (req, res) => {
       },
       {
         ruta: "/api/teams",
-        descripcion: "Listado de equipos",
+        descripcion: "Lista de selecciones del mundial 2022",
+      },
+      {
+        ruta: "/api/matches",
+        descripcion: "Partidos del mundial 2022",
       },
       {
         ruta: "/api/teams/:id",
