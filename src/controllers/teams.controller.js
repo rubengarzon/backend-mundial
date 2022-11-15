@@ -45,7 +45,7 @@ controller.teams = (req, res) => {
       },
       {
         id: 7,
-        nombre: "Estados Unidos",
+        nombre: "EEUU",
         grupo: "B",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png",
