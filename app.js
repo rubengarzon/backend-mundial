@@ -6,6 +6,7 @@ const express = require("express");
 const index = require("./src/routes/index.routes");
 const api = require("./src/routes/api.routes");
 const teams = require("./src/routes/teams.routes");
+const matches = require("./src/routes/matches.routes");
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", index);
 app.use("/api", api);
 app.use("/api/teams", teams);
+app.use("/api/matches", matches);
 
 app.set("puerto", process.env.PORT || 3000);
 app.listen(app.get("puerto"), () => {
