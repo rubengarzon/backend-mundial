@@ -62,7 +62,7 @@ controller.teams = (req, res) => {
         nombre: "Argentina",
         grupo: "C",
         bandera:
-          "https://freepngdesign.com/content/uploads/images/argentina-round-flag-5928.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2560px-Flag_of_Argentina.svg.png",
       },
       {
         id: 10,
