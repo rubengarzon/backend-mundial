@@ -10,6 +10,10 @@ controller.matches = (req, res) => {
         hora: "17:00",
         grupo: "A",
         eliminatoria: "Fase de grupos",
+        banderaCatar:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1200px-Flag_of_Qatar.svg.png",
+        banderaEcuador:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1200px-Flag_of_Ecuador.svg.png",
       },
       {
         id: 2,
@@ -18,6 +22,10 @@ controller.matches = (req, res) => {
         hora: "14:00",
         grupo: "B",
         eliminatoria: "Fase de grupos",
+        banderaInglaterra:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png",
+        banderaIran:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1200px-Flag_of_Iran.svg.png",
       },
       {
         id: 3,
@@ -26,6 +34,10 @@ controller.matches = (req, res) => {
         hora: "17:00",
         grupo: "B",
         eliminatoria: "Fase de grupos",
+        banderaSenegal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1200px-Flag_of_Senegal.svg.png",
+        banderaPaisesBajos:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
       },
       {
         id: 4,
@@ -34,6 +46,10 @@ controller.matches = (req, res) => {
         hora: "20:00",
         grupo: "B",
         eliminatoria: "Fase de grupos",
+        banderaEstadosUnidos:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+        banderaGales:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Wales_%28variant%29.svg/1200px-Flag_of_Wales_%28variant%29.svg.png",
       },
     ],
   });
