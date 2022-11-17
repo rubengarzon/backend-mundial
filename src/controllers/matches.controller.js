@@ -49,7 +49,7 @@ controller.matches = (req, res) => {
         banderaLocal:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Wales_%28variant%29.svg/1200px-Flag_of_Wales_%28variant%29.svg.png",
+          "https://upload.wikimedia.org/wikipedia/en/d/dc/Wales_national_football_team_logo.svg",
       },
     ],
   });
