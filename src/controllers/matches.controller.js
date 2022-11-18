@@ -106,8 +106,10 @@ controller.matches = (req, res) => {
         hora: "11:00",
         grupo: "F",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1200px-Flag_of_Morocco.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1200px-Flag_of_Morocco.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png",
       },
       {
         id: 10,
@@ -116,8 +118,10 @@ controller.matches = (req, res) => {
         hora: "14:00",
         grupo: "E",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
       },
       {
         id: 11,
@@ -126,8 +130,10 @@ controller.matches = (req, res) => {
         hora: "17:00",
         grupo: "E",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1200px-Flag_of_Costa_Rica.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1200px-Flag_of_Costa_Rica.svg.png",
       },
       {
         id: 12,
@@ -136,8 +142,10 @@ controller.matches = (req, res) => {
         hora: "20:00",
         grupo: "F",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1200px-Flag_of_Belgium.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1200px-Flag_of_Canada.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1200px-Flag_of_Belgium.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1200px-Flag_of_Canada.svg.png",
       },
       {
         id: 13,
@@ -146,8 +154,10 @@ controller.matches = (req, res) => {
         hora: "11:00",
         grupo: "G",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland.svg/1200px-Flag_of_Switzerland.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1200px-Flag_of_Cameroon.svg.png",
+        banderaLocal:
+          "https://en.wikipedia.org/wiki/Flag_of_Switzerland#/media/File:Flag_of_Switzerland_(Pantone).svg",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1200px-Flag_of_Cameroon.svg.png",
       },
       {
         id: 14,
@@ -156,8 +166,10 @@ controller.matches = (req, res) => {
         hora: "14:00",
         grupo: "H",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1200px-Flag_of_Uruguay.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1200px-Flag_of_South_Korea.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1200px-Flag_of_Uruguay.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1200px-Flag_of_South_Korea.svg.png",
       },
       {
         id: 15,
@@ -166,8 +178,10 @@ controller.matches = (req, res) => {
         hora: "17:00",
         grupo: "H",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1200px-Flag_of_Ghana.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1200px-Flag_of_Ghana.svg.png",
       },
       {
         id: 16,
@@ -176,8 +190,10 @@ controller.matches = (req, res) => {
         hora: "20:00",
         grupo: "G",
         eliminatoria: "Fase de grupos",
-        banderaLocal: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
-        banderaVisitante: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1200px-Flag_of_Serbia.svg.png",
+        banderaLocal:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+        banderaVisitante:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1200px-Flag_of_Serbia.svg.png",
       },
     ],
   });
