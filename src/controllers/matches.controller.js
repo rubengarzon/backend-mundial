@@ -23,9 +23,9 @@ controller.matches = (req, res) => {
         grupo: "B",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/eng.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1200px-Flag_of_Iran.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/irn.svg",
       },
       {
         id: 3,
@@ -35,9 +35,9 @@ controller.matches = (req, res) => {
         grupo: "B",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1200px-Flag_of_Senegal.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sen.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ned.svg",
       },
       {
         id: 4,
@@ -47,9 +47,9 @@ controller.matches = (req, res) => {
         grupo: "B",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/usa.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/en/d/dc/Wales_national_football_team_logo.svg",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/wal.svg",
       },
       {
         id: 5,
@@ -59,9 +59,9 @@ controller.matches = (req, res) => {
         grupo: "C",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/arg.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1200px-Flag_of_Saudi_Arabia.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ksa.svg",
       },
       {
         id: 6,
@@ -71,9 +71,9 @@ controller.matches = (req, res) => {
         grupo: "D",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1200px-Flag_of_Denmark.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/den.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1200px-Flag_of_Tunisia.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/tun.svg",
       },
       {
         id: 7,
@@ -83,9 +83,9 @@ controller.matches = (req, res) => {
         grupo: "C",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mex.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/pol.svg",
       },
       {
         id: 8,
@@ -95,9 +95,9 @@ controller.matches = (req, res) => {
         grupo: "D",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/fra.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1200px-Flag_of_Australia_%28converted%29.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/aus.svg",
       },
       {
         id: 9,
@@ -107,9 +107,9 @@ controller.matches = (req, res) => {
         grupo: "F",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1200px-Flag_of_Morocco.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mar.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cro.svg",
       },
       {
         id: 10,
@@ -119,9 +119,9 @@ controller.matches = (req, res) => {
         grupo: "E",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ger.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/jpn.svg",
       },
       {
         id: 11,
@@ -131,9 +131,9 @@ controller.matches = (req, res) => {
         grupo: "E",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/esp.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1200px-Flag_of_Costa_Rica.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/crc.svg",
       },
       {
         id: 12,
@@ -143,9 +143,9 @@ controller.matches = (req, res) => {
         grupo: "F",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1200px-Flag_of_Belgium.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bel.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1200px-Flag_of_Canada.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/can.svg",
       },
       {
         id: 13,
@@ -155,9 +155,9 @@ controller.matches = (req, res) => {
         grupo: "G",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://static.vecteezy.com/system/resources/previews/011/571/518/non_2x/circle-flag-of-switzerland-free-png.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sui.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1200px-Flag_of_Cameroon.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cmr.svg",
       },
       {
         id: 14,
@@ -167,9 +167,9 @@ controller.matches = (req, res) => {
         grupo: "H",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1200px-Flag_of_Uruguay.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/uru.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1200px-Flag_of_South_Korea.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/kor.svg",
       },
       {
         id: 15,
@@ -179,9 +179,9 @@ controller.matches = (req, res) => {
         grupo: "H",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/por.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1200px-Flag_of_Ghana.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/gha.svg",
       },
       {
         id: 16,
@@ -191,9 +191,9 @@ controller.matches = (req, res) => {
         grupo: "G",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bra.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1200px-Flag_of_Serbia.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/srb.svg",
       },
     ],
   });
