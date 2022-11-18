@@ -11,9 +11,9 @@ controller.matches = (req, res) => {
         grupo: "A",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1200px-Flag_of_Qatar.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/qat.svg",
         banderaVisitante:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1200px-Flag_of_Ecuador.svg.png",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ecu.svg",
       },
       {
         id: 2,
