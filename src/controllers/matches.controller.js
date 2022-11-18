@@ -155,7 +155,7 @@ controller.matches = (req, res) => {
         grupo: "G",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://en.wikipedia.org/wiki/Flag_of_Switzerland#/media/File:Flag_of_Switzerland_(Pantone).svg",
+          "https://static.vecteezy.com/system/resources/previews/011/571/518/non_2x/circle-flag-of-switzerland-free-png.png",
         banderaVisitante:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1200px-Flag_of_Cameroon.svg.png",
       },
