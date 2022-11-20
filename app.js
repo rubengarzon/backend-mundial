@@ -7,11 +7,13 @@ const index = require("./src/routes/index.routes");
 const api = require("./src/routes/api.routes");
 const teams = require("./src/routes/teams.routes");
 const matches = require("./src/routes/matches.routes");
-
+const cors = require("cors");
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use(cors());
 
 // RUTAS
 app.use("/", index);
