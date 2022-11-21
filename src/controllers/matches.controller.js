@@ -17,7 +17,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 2,
-        partido: "Inglaterra - Iran",
+        partido: "Inglaterra 6-2 Iran",
         fecha: "21/11/2022",
         hora: "14:00",
         grupo: "B",
@@ -29,7 +29,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 3,
-        partido: "Senegal - Paises Bajos",
+        partido: "Senegal 0-2 Paises Bajos",
         fecha: "21/11/2022",
         hora: "17:00",
         grupo: "B",
