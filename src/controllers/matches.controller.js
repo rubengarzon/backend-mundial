@@ -5,7 +5,7 @@ controller.matches = (req, res) => {
     matches: [
       {
         id: 1,
-        partido: "Catar - Ecuador",
+        partido: "Catar 0-2 Ecuador",
         fecha: "20/11/2022",
         hora: "17:00",
         grupo: "A",

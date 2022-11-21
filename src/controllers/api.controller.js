@@ -15,14 +15,6 @@ controller.api = (req, res) => {
         ruta: "/api/matches",
         descripcion: "Partidos del mundial 2022",
       },
-      {
-        ruta: "/api/teams/:id",
-        descripcion: "Detalle de un equipo",
-      },
-      {
-        ruta: "/api/players",
-        descripcion: "Listado de jugadores",
-      },
     ],
   });
 };
