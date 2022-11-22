@@ -41,7 +41,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 4,
-        partido: "Estados Unidos - Gales",
+        partido: "Estados Unidos 1-1 Gales",
         fecha: "21/11/2022",
         hora: "20:00",
         grupo: "B",
@@ -53,7 +53,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 5,
-        partido: "Argentina - Arabia Saudita",
+        partido: "Argentina 1-2 Arabia Saudita",
         fecha: "22/11/2022",
         hora: "11:00",
         grupo: "C",
@@ -242,6 +242,54 @@ controller.matches = (req, res) => {
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/eng.svg",
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/usa.svg",
+      },
+      {
+        id: 21,
+        partido: "Túnez - Australia",
+        fecha: "26/11/2022",
+        hora: "11:00",
+        grupo: "D",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/tun.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/aus.svg",
+      },
+      {
+        id: 22,
+        partido: "Polonia - Arabia Saudita",
+        fecha: "26/11/2022",
+        hora: "14:00",
+        grupo: "C",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/pol.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sau.svg",
+      },
+      {
+        id: 23,
+        partido: "Francia - Dinamarca",
+        fecha: "26/11/2022",
+        hora: "17:00",
+        grupo: "D",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/fra.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/den.svg",
+      },
+      {
+        id: 24,
+        partido: "Argentina - México",
+        fecha: "26/11/2022",
+        hora: "20:00",
+        grupo: "C",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/arg.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mex.svg",
       },
     ],
   });
