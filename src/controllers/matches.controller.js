@@ -53,7 +53,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 5,
-        partido: "Argentina 1-2 Arabia Saudita",
+        partido: "Argentina 1-2 Arabia S.",
         fecha: "22/11/2022",
         hora: "11:00",
         grupo: "C",
@@ -257,7 +257,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 22,
-        partido: "Polonia - Arabia Saudita",
+        partido: "Polonia - Arabia S.",
         fecha: "26/11/2022",
         hora: "14:00",
         grupo: "C",
@@ -265,7 +265,7 @@ controller.matches = (req, res) => {
         banderaLocal:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/pol.svg",
         banderaVisitante:
-          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sau.svg",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ksa.svg",
       },
       {
         id: 23,
