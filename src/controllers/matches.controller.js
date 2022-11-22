@@ -291,6 +291,54 @@ controller.matches = (req, res) => {
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mex.svg",
       },
+      {
+        id: 25,
+        partido: "Japón - Costa Rica",
+        fecha: "27/11/2022",
+        hora: "11:00",
+        grupo: "E",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/jpn.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/crc.svg",
+      },
+      {
+        id: 26,
+        partido: "Bélgica - Marruecos",
+        fecha: "27/11/2022",
+        hora: "14:00",
+        grupo: "F",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bel.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mar.svg",
+      },
+      {
+        id: 27,
+        partido: "Croacia - Canadá",
+        fecha: "27/11/2022",
+        hora: "17:00",
+        grupo: "E",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cro.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/can.svg",
+      },
+      {
+        id: 28,
+        partido: "España - Alemania",
+        fecha: "27/11/2022",
+        hora: "20:00",
+        grupo: "E",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/esp.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ger.svg",
+      },
     ],
   });
 };
