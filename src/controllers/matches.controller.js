@@ -65,7 +65,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 6,
-        partido: "Dinamarca - Tunez",
+        partido: "Dinamarca 0-0 Tunez",
         fecha: "22/11/2022",
         hora: "14:00",
         grupo: "D",
@@ -77,7 +77,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 7,
-        partido: "México - Polonia",
+        partido: "México 0-0 Polonia",
         fecha: "22/11/2022",
         hora: "17:00",
         grupo: "C",
@@ -89,7 +89,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 8,
-        partido: "Francia - Australia",
+        partido: "Francia 4-1 Australia",
         fecha: "22/11/2022",
         hora: "20:00",
         grupo: "D",
@@ -101,7 +101,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 9,
-        partido: "Marruecos - Croacia",
+        partido: "Marruecos 0-0 Croacia",
         fecha: "23/11/2022",
         hora: "11:00",
         grupo: "F",
