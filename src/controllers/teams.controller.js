@@ -8,6 +8,7 @@ controller.teams = (req, res) => {
         nombre: "Catar",
         grupo: "A",
         bandera: "https://cdn-icons-png.flaticon.com/512/197/197618.png",
+        puntos: 0,
       },
       {
         id: 2,
@@ -15,6 +16,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://static.vecteezy.com/system/resources/previews/011/571/449/original/circle-flag-of-ecuador-free-png.png",
+        puntos: 3,
       },
       {
         id: 3,
@@ -22,6 +24,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://cdn.countryflags.com/thumbs/senegal/flag-round-250.png",
+        puntos: 0,
       },
       {
         id: 4,
@@ -29,6 +32,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://static.vecteezy.com/system/resources/previews/011/571/464/non_2x/circle-flag-of-netherlands-free-png.png",
+        puntos: 3,
       },
       {
         id: 5,
