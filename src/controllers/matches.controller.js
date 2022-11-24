@@ -387,6 +387,54 @@ controller.matches = (req, res) => {
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/uru.svg",
       },
+      {
+        id: 33,
+        partido: "Ecuador - Senegal",
+        fecha: "29/11/2022",
+        hora: "16:00",
+        grupo: "A",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ecu.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sen.svg",
+      },
+      {
+        id: 34,
+        partido: "Paises Bajos - Catar",
+        fecha: "29/11/2022",
+        hora: "16:00",
+        grupo: "A",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ned.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/qat.svg",
+      },
+      {
+        id: 35,
+        partido: "Irán - Estados Unidos",
+        fecha: "29/11/2022",
+        hora: "20:00",
+        grupo: "B",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/irn.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/usa.svg",
+      },
+      {
+        id: 36,
+        partido: "Gales - Inglaterra",
+        fecha: "29/11/2022",
+        hora: "20:00",
+        grupo: "B",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/wal.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/eng.svg",
+      },
     ],
   });
 };
