@@ -113,7 +113,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 10,
-        partido: "Alemania - Japón",
+        partido: "Alemania 1-2 Japón",
         fecha: "23/11/2022",
         hora: "14:00",
         grupo: "E",
@@ -125,7 +125,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 11,
-        partido: "España - Costa Rica",
+        partido: "España 7-0 Costa Rica",
         fecha: "23/11/2022",
         hora: "17:00",
         grupo: "E",
@@ -137,7 +137,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 12,
-        partido: "Bélgica - Canadá",
+        partido: "Bélgica 1-0 Canadá",
         fecha: "23/11/2022",
         hora: "20:00",
         grupo: "F",
@@ -149,7 +149,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 13,
-        partido: "Suiza - Camerún",
+        partido: "Suiza 1-0 Camerún",
         fecha: "24/11/2022",
         hora: "11:00",
         grupo: "G",
@@ -338,6 +338,54 @@ controller.matches = (req, res) => {
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/esp.svg",
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ger.svg",
+      },
+      {
+        id: 29,
+        partido: "Camerún - Serbia",
+        fecha: "28/11/2022",
+        hora: "11:00",
+        grupo: "G",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cmr.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/srb.svg",
+      },
+      {
+        id: 30,
+        partido: "Corea del Sur - Ghana",
+        fecha: "28/11/2022",
+        hora: "14:00",
+        grupo: "H",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/kor.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/gha.svg",
+      },
+      {
+        id: 31,
+        partido: "Brasil - Suiza",
+        fecha: "28/11/2022",
+        hora: "17:00",
+        grupo: "G",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bra.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sui.svg",
+      },
+      {
+        id: 32,
+        partido: "Portugal - Uruguay",
+        fecha: "28/11/2022",
+        hora: "20:00",
+        grupo: "H",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/por.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/uru.svg",
       },
     ],
   });
