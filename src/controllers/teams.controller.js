@@ -131,7 +131,7 @@ controller.teams = (req, res) => {
         nombre: "España",
         grupo: "E",
         bandera: "https://cdn-icons-png.flaticon.com/512/323/323365.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 18,
@@ -154,14 +154,14 @@ controller.teams = (req, res) => {
         grupo: "E",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Japanese_flag_rounded.svg/2048px-Japanese_flag_rounded.svg.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 21,
         nombre: "Bélgica",
         grupo: "F",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/be-circle-01.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 22,
@@ -177,14 +177,14 @@ controller.teams = (req, res) => {
         grupo: "F",
         bandera:
           "https://flagdownload.com/wp-content/uploads/Flag_of_Morocco_Flat_Round-2048x2048.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 24,
         nombre: "Croacia",
         grupo: "F",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/hr-circle-01.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 25,
@@ -207,7 +207,7 @@ controller.teams = (req, res) => {
         nombre: "Suiza",
         grupo: "G",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/ch-circle-01.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 28,
