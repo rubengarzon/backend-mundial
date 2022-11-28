@@ -531,6 +531,54 @@ controller.matches = (req, res) => {
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ger.svg",
       },
+      {
+        id: 45,
+        partido: "Corea del Sur - Portugal",
+        fecha: "02/12/2022",
+        hora: "16:00",
+        grupo: "H",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/kor.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/prt.svg",
+      },
+      {
+        id: 46,
+        partido: "Ghana - Uruguay",
+        fecha: "02/12/2022",
+        hora: "16:00",
+        grupo: "H",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/gha.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/uru.svg",
+      },
+      {
+        id: 47,
+        partido: "Serbia - Suiza",
+        fecha: "02/12/2022",
+        hora: "20:00",
+        grupo: "G",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/srb.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sui.svg",
+      },
+      {
+        id: 48,
+        partido: "Camerún - Brasil",
+        fecha: "02/12/2022",
+        hora: "20:00",
+        grupo: "G",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cmr.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bra.svg",
+      },
     ],
   });
 };
