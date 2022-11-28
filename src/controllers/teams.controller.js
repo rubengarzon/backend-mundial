@@ -16,7 +16,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://static.vecteezy.com/system/resources/previews/011/571/449/original/circle-flag-of-ecuador-free-png.png",
-        puntos: 3,
+        puntos: 4,
       },
       {
         id: 3,
@@ -24,7 +24,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://cdn.countryflags.com/thumbs/senegal/flag-round-250.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 4,
@@ -32,7 +32,7 @@ controller.teams = (req, res) => {
         grupo: "A",
         bandera:
           "https://static.vecteezy.com/system/resources/previews/011/571/464/non_2x/circle-flag-of-netherlands-free-png.png",
-        puntos: 3,
+        puntos: 4,
       },
       {
         id: 5,
@@ -40,14 +40,14 @@ controller.teams = (req, res) => {
         grupo: "B",
         bandera:
           "https://cdn3.iconfinder.com/data/icons/50-flags-of-the-world-circular-shape-2/60/Circular_world_Flag_143-512.png",
-        puntos: 3,
+        puntos: 4,
       },
       {
         id: 6,
         nombre: "Irán",
         grupo: "B",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/ir-circle-01.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 7,
@@ -55,7 +55,7 @@ controller.teams = (req, res) => {
         grupo: "B",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png",
-        puntos: 1,
+        puntos: 2,
       },
       {
         id: 8,
@@ -71,7 +71,7 @@ controller.teams = (req, res) => {
         grupo: "C",
         bandera:
           "https://www.citypng.com/public/uploads/preview/round-argentina-flag-icon-png-image-11656809726ezdgnjy0ry.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 10,
@@ -94,14 +94,14 @@ controller.teams = (req, res) => {
         grupo: "C",
         bandera:
           "https://cdn2.iconfinder.com/data/icons/world-flag-2/30/13-512.png",
-        puntos: 1,
+        puntos: 4,
       },
       {
         id: 13,
         nombre: "Francia",
         grupo: "D",
         bandera: "https://cdn-icons-png.flaticon.com/512/197/197560.png",
-        puntos: 3,
+        puntos: 6,
       },
       {
         id: 14,
@@ -109,7 +109,7 @@ controller.teams = (req, res) => {
         grupo: "D",
         bandera:
           "https://markblasdale.com/wp-content/uploads/2018/09/Australia-Flag-Round-PNG.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 15,
@@ -131,14 +131,14 @@ controller.teams = (req, res) => {
         nombre: "España",
         grupo: "E",
         bandera: "https://cdn-icons-png.flaticon.com/512/323/323365.png",
-        puntos: 3,
+        puntos: 4,
       },
       {
         id: 18,
         nombre: "Costa Rica",
         grupo: "E",
         bandera: "https://cdn-icons-png.flaticon.com/512/197/197506.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 19,
@@ -146,7 +146,7 @@ controller.teams = (req, res) => {
         grupo: "E",
         bandera:
           "https://pngimage.net/wp-content/uploads/2018/06/germany-flag-icon-png-5.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 20,
@@ -177,14 +177,14 @@ controller.teams = (req, res) => {
         grupo: "F",
         bandera:
           "https://flagdownload.com/wp-content/uploads/Flag_of_Morocco_Flat_Round-2048x2048.png",
-        puntos: 1,
+        puntos: 4,
       },
       {
         id: 24,
         nombre: "Croacia",
         grupo: "F",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/hr-circle-01.png",
-        puntos: 1,
+        puntos: 4,
       },
       {
         id: 25,
@@ -192,7 +192,7 @@ controller.teams = (req, res) => {
         grupo: "G",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Brazilian_flag_icon_round.svg/1200px-Brazilian_flag_icon_round.svg.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 26,
@@ -200,7 +200,7 @@ controller.teams = (req, res) => {
         grupo: "G",
         bandera:
           "https://cdn.countryflags.com/thumbs/serbia/flag-round-250.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 27,
@@ -215,14 +215,14 @@ controller.teams = (req, res) => {
         grupo: "G",
         bandera:
           "https://cdn.countryflags.com/thumbs/cameroon/flag-round-250.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 29,
         nombre: "Portugal",
         grupo: "H",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/pt-circle-01.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 30,
@@ -237,7 +237,7 @@ controller.teams = (req, res) => {
         grupo: "H",
         bandera:
           "https://cdn.countryflags.com/thumbs/uruguay/flag-round-250.png",
-        puntos: 0,
+        puntos: 1,
       },
       {
         id: 32,
@@ -245,7 +245,7 @@ controller.teams = (req, res) => {
         grupo: "H",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-        puntos: 0,
+        puntos: 1,
       },
     ],
   });
