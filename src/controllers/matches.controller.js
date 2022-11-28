@@ -161,7 +161,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 14,
-        partido: "Uruguay - Corea del Sur",
+        partido: "Uruguay 0-0 Corea del Sur",
         fecha: "24/11/2022",
         hora: "14:00",
         grupo: "H",
@@ -173,7 +173,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 15,
-        partido: "Portugal - Ghana",
+        partido: "Portugal 3-2 Ghana",
         fecha: "24/11/2022",
         hora: "17:00",
         grupo: "H",
@@ -185,7 +185,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 16,
-        partido: "Brasil - Serbia",
+        partido: "Brasil 2-0 Serbia",
         fecha: "24/11/2022",
         hora: "20:00",
         grupo: "G",
@@ -197,7 +197,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 17,
-        partido: "Gales - Iran",
+        partido: "Gales 0-2 Iran",
         fecha: "25/11/2022",
         hora: "11:00",
         grupo: "B",
@@ -209,7 +209,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 18,
-        partido: "Catar - Senegal",
+        partido: "Catar 1-3 Senegal",
         fecha: "25/11/2022",
         hora: "14:00",
         grupo: "A",
@@ -221,7 +221,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 19,
-        partido: "Paises bajos - Ecuador",
+        partido: "Paises bajos 1-1 Ecuador",
         fecha: "25/11/2022",
         hora: "17:00",
         grupo: "A",
@@ -233,7 +233,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 20,
-        partido: "Inglaterra - Estados Unidos",
+        partido: "Inglaterra 0-0 Estados Unidos",
         fecha: "25/11/2022",
         hora: "20:00",
         grupo: "B",
@@ -245,7 +245,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 21,
-        partido: "Túnez - Australia",
+        partido: "Túnez 0-1 Australia",
         fecha: "26/11/2022",
         hora: "11:00",
         grupo: "D",
@@ -257,7 +257,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 22,
-        partido: "Polonia - Arabia S.",
+        partido: "Polonia 2-0 Arabia S.",
         fecha: "26/11/2022",
         hora: "14:00",
         grupo: "C",
@@ -269,7 +269,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 23,
-        partido: "Francia - Dinamarca",
+        partido: "Francia 2-1 Dinamarca",
         fecha: "26/11/2022",
         hora: "17:00",
         grupo: "D",
@@ -281,7 +281,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 24,
-        partido: "Argentina - México",
+        partido: "Argentina 2-0 México",
         fecha: "26/11/2022",
         hora: "20:00",
         grupo: "C",
@@ -293,7 +293,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 25,
-        partido: "Japón - Costa Rica",
+        partido: "Japón 0-1 Costa Rica",
         fecha: "27/11/2022",
         hora: "11:00",
         grupo: "E",
@@ -305,7 +305,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 26,
-        partido: "Bélgica - Marruecos",
+        partido: "Bélgica 0-2 Marruecos",
         fecha: "27/11/2022",
         hora: "14:00",
         grupo: "F",
@@ -317,7 +317,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 27,
-        partido: "Croacia - Canadá",
+        partido: "Croacia 4-1 Canadá",
         fecha: "27/11/2022",
         hora: "17:00",
         grupo: "E",
@@ -329,7 +329,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 28,
-        partido: "España - Alemania",
+        partido: "España 1-1 Alemania",
         fecha: "27/11/2022",
         hora: "20:00",
         grupo: "E",
@@ -341,7 +341,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 29,
-        partido: "Camerún - Serbia",
+        partido: "Camerún 3-3 Serbia",
         fecha: "28/11/2022",
         hora: "11:00",
         grupo: "G",
@@ -482,6 +482,54 @@ controller.matches = (req, res) => {
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sau.svg",
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mex.svg",
+      },
+      {
+        id: 41,
+        partido: "Croacia - Bélgica",
+        fecha: "01/12/2022",
+        hora: "16:00",
+        grupo: "F",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/cro.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/bel.svg",
+      },
+      {
+        id: 42,
+        partido: "Canadá - Marruecos",
+        fecha: "01/12/2022",
+        hora: "16:00",
+        grupo: "F",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/can.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mar.svg",
+      },
+      {
+        id: 43,
+        partido: "Japón - España",
+        fecha: "01/12/2022",
+        hora: "20:00",
+        grupo: "E",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/jpn.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/esp.svg",
+      },
+      {
+        id: 44,
+        partido: "Costa Rica - Alemania",
+        fecha: "01/12/2022",
+        hora: "20:00",
+        grupo: "E",
+        eliminatoria: "Fase de grupos",
+        banderaLocal:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/crc.svg",
+        banderaVisitante:
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ger.svg",
       },
     ],
   });
