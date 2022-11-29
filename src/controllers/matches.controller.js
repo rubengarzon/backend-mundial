@@ -479,7 +479,7 @@ controller.matches = (req, res) => {
         grupo: "C",
         eliminatoria: "Fase de grupos",
         banderaLocal:
-          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/sau.svg",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/ksa.svg",
         banderaVisitante:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/mex.svg",
       },
@@ -541,7 +541,7 @@ controller.matches = (req, res) => {
         banderaLocal:
           "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/kor.svg",
         banderaVisitante:
-          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/prt.svg",
+          "https://www.qatar2022.qa/themes/custom/qatar_2022/images/flags/por.svg",
       },
       {
         id: 46,
