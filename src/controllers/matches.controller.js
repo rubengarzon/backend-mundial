@@ -353,7 +353,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 30,
-        partido: "Corea del Sur - Ghana",
+        partido: "Corea del Sur 2-3 Ghana",
         fecha: "28/11/2022",
         hora: "14:00",
         grupo: "H",
@@ -365,7 +365,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 31,
-        partido: "Brasil - Suiza",
+        partido: "Brasil 1-0 Suiza",
         fecha: "28/11/2022",
         hora: "17:00",
         grupo: "G",
@@ -377,7 +377,7 @@ controller.matches = (req, res) => {
       },
       {
         id: 32,
-        partido: "Portugal - Uruguay",
+        partido: "Portugal 2-0 Uruguay",
         fecha: "28/11/2022",
         hora: "20:00",
         grupo: "H",
