@@ -192,7 +192,7 @@ controller.teams = (req, res) => {
         grupo: "G",
         bandera:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Brazilian_flag_icon_round.svg/1200px-Brazilian_flag_icon_round.svg.png",
-        puntos: 3,
+        puntos: 6,
       },
       {
         id: 26,
@@ -222,14 +222,14 @@ controller.teams = (req, res) => {
         nombre: "Portugal",
         grupo: "H",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/pt-circle-01.png",
-        puntos: 3,
+        puntos: 6,
       },
       {
         id: 30,
         nombre: "Ghana",
         grupo: "H",
         bandera: "https://vectorflags.s3.amazonaws.com/flags/gh-circle-01.png",
-        puntos: 0,
+        puntos: 3,
       },
       {
         id: 31,
